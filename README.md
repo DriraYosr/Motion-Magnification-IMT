@@ -43,4 +43,4 @@ Guitar, amplification factor = 20
 
 This code was derived from [here]https://github.com/ZhengPeng7/motion_magnification_learning-based and there are a few modifications: 
 1. Grid search for best parameters in the `main_grid.py`
-2. Sound extraction in the `extract_sound.py`
+2. Sound extraction in the `extract_sound.py`: The magnified motion information is used to generate sound. The script accumulates the magnified motion data across frames and across different decomposition levels and orientations. It then shifts and sums this data to generate raw sound data.
