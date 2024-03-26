@@ -34,7 +34,7 @@ class Config(object):
         self.load_all = False        # Don't turn it on, unless you have such a big mem.
                                      # On coco dataset, 100, 000 sets -> 850G
 
-        # Training
+        # 9+--+++
         self.lr = 1e-4
         self.betas = (0.9, 0.999)
         self.batch_size_test = 1
