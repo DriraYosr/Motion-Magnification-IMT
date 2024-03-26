@@ -16,7 +16,7 @@ This is an unofficial implementation of "[Learning-based Video Motion Magnificat
 
 Synthetic dataset for **training**: official repository [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing).
 
-1. About the video datasets for **validation**, you can also download the preprocessed frames [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing), which is named train_vid_frames.zip.
+About the video datasets for **validation**, you can also download the preprocessed frames [here](https://drive.google.com/drive/folders/19K09QLouiV5N84wZiTPUMdoH9-UYqZrX?usp=sharing), which is named train_vid_frames.zip.
 
 The images in the dataset given has 4 parts:
 
@@ -39,3 +39,8 @@ Baby, amplification factor = 50
 Guitar, amplification factor = 20
 
 ![guitar](materials/guitar_comp.gif)
+
+
+This code was derived from [here]https://github.com/ZhengPeng7/motion_magnification_learning-based and there are a few modifications with the following modifications: 
+1. Grid search for best parameters in the `main_grid.py`
+2. Sound extraction in the `extract_sound.py`
