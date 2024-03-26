@@ -41,6 +41,6 @@ Guitar, amplification factor = 20
 ![guitar](materials/guitar_comp.gif)
 
 
-This code was derived from [here]https://github.com/ZhengPeng7/motion_magnification_learning-based and there are a few modifications with the following modifications: 
+This code was derived from [here]https://github.com/ZhengPeng7/motion_magnification_learning-based and there are a few modifications: 
 1. Grid search for best parameters in the `main_grid.py`
 2. Sound extraction in the `extract_sound.py`
