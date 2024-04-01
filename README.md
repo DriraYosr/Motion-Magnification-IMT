@@ -25,21 +25,6 @@ The images in the dataset given has 4 parts:
 3. frameC: the real   <img src="https://latex.codecogs.com/svg.latex?X_b" /> , unperturbed;
 4. **amplified**: represent both   <img src="https://latex.codecogs.com/svg.latex?Y" />  and   <img src="https://latex.codecogs.com/svg.latex?Y^{'}" /> , perturbed.
 
-# Run
-`bash run.sh` to train and test.
-
-# Results
-
-Here are some results generated from the model trained on the whole synthetic dataset for **12** epochs. 
-
-Baby, amplification factor = 50
-
-![baby](materials/baby_comp.gif)
-
-Guitar, amplification factor = 20
-
-![guitar](materials/guitar_comp.gif)
-
 
 This code was derived from [here]https://github.com/ZhengPeng7/motion_magnification_learning-based and there are a few modifications: 
 1. Grid search for best parameters in the `main_grid.py`
